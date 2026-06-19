@@ -16,6 +16,11 @@
     --bg: #fefefe;
     --color-text: rgb(64, 64, 64);
     --color-muted: rgb(102, 102, 102);
+      --color-oscurisimo: #000;
+    --color-oscuro: #23006e;
+    --color-normal: #555b5c;
+    --color-iluminado: #aaa;
+    --color-iluminadisimo: #aab7f2;
     --accent: #e8571a;
     --border: silver;
     /* Tipografía */
@@ -241,6 +246,11 @@ ul li {
 }
 
 /* ── Figura que contiene el gráfico ── */
+div#contenedor {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 980px;
+}
 
 figure {
     margin: 2rem -1.5rem;
