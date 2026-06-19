@@ -320,8 +320,7 @@
                                         "Universidad acreditada por " + point.x + " años",
                                         context.dataset.label + " $ " + point.y.toLocaleString("es-CL"),
 
-										            new Chart(document.getElementById("tabla"), {
-
+function tabla() {
 													const t = document.querySelector("#este");
             const URL = "https://api.myjson.online/v1/records/33ed024f-315c-4de1-bb37-c9023ebd5784";
 
