@@ -250,6 +250,9 @@ div#contenedordetabla {
     margin: 1rem auto;
     width: 90%;
     max-width: 980px;
+  position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 input {
