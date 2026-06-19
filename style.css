@@ -247,7 +247,7 @@ ul li {
 
 /* ── Figura que contiene el gráfico ── */
 div#contenedordetabla {
-    width: 90%;
+    width: 100%;
     max-width: 980px;
 }
 
