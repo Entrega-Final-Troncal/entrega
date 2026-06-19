@@ -352,7 +352,7 @@
                     fila.style.display = sinAcentos(fila.textContent.toLowerCase()).includes(valor) ? "" : "none";
                 });
             });		
-								},
+	
                                     ];
                                 },
                             },
