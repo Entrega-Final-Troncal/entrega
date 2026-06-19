@@ -252,6 +252,73 @@ div#contenedor {
     max-width: 980px;
 }
 
+input {
+    border: 0.1rem solid var(--color-iluminado);
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--color-oscuro);
+    outline: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: block;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16"> <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334"/> </svg>');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: 99% center;
+}
+
+input::placeholder {
+    color: var(--color-iluminado);
+}
+
+input:focus {
+    border-color: var(--color-normal);
+}
+
+div#contenedordetabla {
+    overflow-x: auto;
+    font-size: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+thead {
+    background: var(--color-iluminadisimo);
+    color: var(--color-oscuro);
+}
+
+tbody {
+    color: var(--color-normal);
+}
+
+td,
+th {
+    border: 1px solid var(--color-normal);
+    padding: 0.75rem;
+}
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(4),
+td:nth-child(4) {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    color: var(--color-oscuro);
+    font-weight: 800;
+}
+
+td:nth-child(3) {
+    font-style: italic;
+}
+
 figure {
     margin: 2rem -1.5rem;
     background: white;
