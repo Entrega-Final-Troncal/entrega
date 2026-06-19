@@ -90,7 +90,26 @@
 			
 			<p>En consecuencia, debido a este efecto contrapuesto, donde el ascenso de una variable se contrarresta con el descenso de la otra, ambos cobros terminan por balancearse mutuamente. Esto implica que, al sumar ambos conceptos, los costos generales acumulados no experimentan una reducción significativa, manteniendo una carga económica total relativamente similar entre los distintos niveles de acreditación.</p>
 
-			   <script>
+<input type="text" id="elInput" placeholder="Filtrar electivos…" />
+            <div id="contenedordetabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Titulad@</th>
+                            <th>Proyecto</th>
+                            <th>Nota</th>
+                            <th>Categoría</th>
+							<th>Prof. Guía</th>
+                        </tr>
+                    </thead>
+                    <tbody id="este"></tbody>
+                </table>
+            </div>
+            <small>Diseño y visualización de información</small>
+        </div>
+
+        <script>
             const t = document.querySelector("#este");
             const URL = "https://api.myjson.online/v1/records/33ed024f-315c-4de1-bb37-c9023ebd5784";
 
