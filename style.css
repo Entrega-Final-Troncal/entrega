@@ -247,12 +247,8 @@ ul li {
 
 /* ── Figura que contiene el gráfico ── */
 div#contenedordetabla {
-    margin: 1rem auto;
     width: 90%;
     max-width: 980px;
-  position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 input {
@@ -281,7 +277,7 @@ input:focus {
 
 div#contenedordetabla {
     overflow-x: auto;
-    font-size: 90%;
+    font-size: 70%;
 }
 
 table {
