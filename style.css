@@ -261,7 +261,7 @@ input {
     margin-bottom: 1.5rem;
     width: 100%;
     display: block;
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16"> <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5 5 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334"/> </svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>74_Two_way_vertical_v15</title><path d="M37.58,66.11l13.9-14V71.53l-22.76,23-23-23V52.09L19.62,66V40.16h18Zm56.7-18.2L80.38,34V59.84H62.18V34l-13.9,13.9V28.47l23-23,23,23Z"></path></svg>');
     background-repeat: no-repeat;
     background-size: 1rem;
     background-position: 99% center;
