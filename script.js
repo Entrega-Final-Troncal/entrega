@@ -3,7 +3,7 @@
                 data: {
                     datasets: [
                         {
-                            label: "Arancel",
+                            label: "Tendencias",
                             data: [
                                 { x: "Tecnología, Interacción y Medios", y: 55 },
                                 { x: "Territorio, Identidad y Memoria", y: 61 },
