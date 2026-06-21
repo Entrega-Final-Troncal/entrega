@@ -244,7 +244,7 @@
                         },
                     },
                     plugins: {
-                        legend: { display: false }, 
+                        legend: { display: true }, 
                         tooltip: {
                             backgroundColor: "#fff",
                             borderColor: "#ddd",
